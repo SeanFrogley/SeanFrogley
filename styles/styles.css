@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+.container p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.construction-icon {
+    font-size: 80px;
+    color: #ff6347;
+    margin-bottom: 15px;
+}
+
+.container .message {
+    font-size: 24px;
+    color: #333;
+}
+
+.container .retry-btn {
+    padding: 12px 25px;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container .retry-btn:hover {
+    background-color: #e55347;
+}
