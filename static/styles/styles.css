@@ -26,6 +26,9 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.logo{
+    width: 140px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -57,9 +60,6 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-}
-.header-text span{
-    color: #00ff0d;
 }
 
 /* --------------about-------------*/
