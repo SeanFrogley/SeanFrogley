@@ -143,12 +143,24 @@ function draw() {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+    // Draw the snake with white outlines
     snake.forEach(segment => {
+        // Draw white outline
+        ctx.strokeStyle = 'white'; // Set the stroke color to white
+        ctx.lineWidth = 2; // Set the outline thickness
+        ctx.strokeRect(segment.x, segment.y, box, box); // Draw the outline
+
+        // Fill the snake segment
         ctx.fillStyle = 'lime';
         ctx.fillRect(segment.x, segment.y, box, box);
     });
 
-    // Draw the food
+    // Draw the food with white outlines
+    ctx.strokeStyle = 'white'; // Set the stroke color to white
+    ctx.lineWidth = 2; // Set the outline thickness
+    ctx.strokeRect(food.x, food.y, box, box); // Draw the food outline
+
+    // Fill the food square
     ctx.fillStyle = 'red';
     ctx.fillRect(food.x, food.y, box, box);
 }

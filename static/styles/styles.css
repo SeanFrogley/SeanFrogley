@@ -96,6 +96,8 @@ body, html {
     height: 100%;
 }
 
+/* --------------game-------------*/
+
 #game {
     position: absolute;
     top: 50%;
@@ -110,8 +112,8 @@ body, html {
 
 #header {
     position: relative;
-    z-index: 1; /* Bring header content above the canvas */
-    color: white; /* Ensure text is visible */
+    z-index: 1;
+    color: white;
 }
 
 #header .container {
