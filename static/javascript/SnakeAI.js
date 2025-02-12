@@ -138,7 +138,7 @@ function aStarPathfinding(start, goal) {
             }
         }
     }
-
+    isRunning = false;
     return null; // No path found
 }
 
@@ -201,18 +201,9 @@ function draw() {
 
     // Draw each segment of the snake
     snake.forEach(segment => {
-        ctx.strokeStyle = 'white'; // Set the stroke color for the snake
-        ctx.lineWidth = 2; // Set the stroke width
-        ctx.strokeRect(segment.x, segment.y, box, box); // Draw a white outline around the segment
-
         ctx.fillStyle = 'lime'; // Set the fill color for the snake
         ctx.fillRect(segment.x, segment.y, box, box); // Fill the snake segment with lime color
     });
-
-    // Draw the food with a white outline
-    ctx.strokeStyle = 'white'; // Set the stroke color for the food
-    ctx.lineWidth = 2; // Set the stroke width
-    ctx.strokeRect(food.x, food.y, box, box); // Draw a white outline around the food
 
     ctx.fillStyle = 'red'; // Set the fill color for the food
     ctx.fillRect(food.x, food.y, box, box); // Fill the food with red color
