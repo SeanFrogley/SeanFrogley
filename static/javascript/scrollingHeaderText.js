@@ -8,4 +8,5 @@ window.addEventListener('scroll', () => {
 
     const opacity = Math.max(1 - scrollY / 500, 0); // Fade out as the user scrolls
     headerText.querySelector('p').style.opacity = opacity;
+    headerText.querySelector('h1').style.opacity = opacity;
 });

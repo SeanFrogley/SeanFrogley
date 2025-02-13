@@ -27,15 +27,46 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img >
+                <img src="static/images/user.png">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>About me to be done</p>
+                <p>Computer Science student with expertise in full-stack web development, 
+                    software engineering, and cloud computing. Proficient in Python, Java, 
+                    C, and C#, with experience in building scalable applications. Skilled 
+                    in Agile methodologies, version control, and CI/CD practices. 
+                    Passionate about using modern technologies to create innovative 
+                    solutions and strong at collaborating in team environments.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Current</span><br>Junior Full Stack Developer</li>
+                        <li><span>2024 November - 2025 February</span><br>Intern .NET Full Stack Developer</li>
+                        <li><span>2024 February - November</span><br>Intern Springboot Full Stack Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Springboot and .NET Developer</li>
+                        <li><span>Android App Developer</span><br>Building Android Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University Of Canterbury</span><br>Bachelor of Computer Science</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
 </body>
 <script src="static/javascript/SnakeAI.js"></script>
+<script src="static/javascript/switchAboutTab.js"></script>
 <script src="static/javascript/scrollingHeaderText.js"></script>
