@@ -11,14 +11,14 @@
     <div class="container">
         <nav>
             <img src="static/images/logo.png" class="logo">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fas fa-times" onclick="closeMenu()"></i>
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fas fa-bars" onclick="openMenu()"></i>
         </nav>
         <div class="header-text">
             <p>Full Stack Developer</p>
@@ -140,6 +140,15 @@
     </div>
 </div>
 </body>
+<script>
+    var sideMenu = document.getElementById("sidemenu");
+    function openMenu() {
+        sideMenu.style.right="0";
+    }
+    function closeMenu() {
+        sideMenu.style.right="-40%";
+    }
+</script>
 <script src="static/javascript/SnakeAI.js"></script>
 <script src="static/javascript/switchAboutTab.js"></script>
 <script src="static/javascript/scrollingHeaderText.js"></script>

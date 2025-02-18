@@ -327,17 +327,50 @@ form .btn2 {
 
 /* --------------css for small screen-------------*/
 
-@media only screen and (max-width: 600px){
+nav .fas{
+    display: none;
+}
+
+@media (orientation: portrait) {
     .header-text{
-        margin-top: 50%;
-        font-size: 16px;
+        margin-top: 40%;
+        font-size: 30px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 48px;
         margin-top: 20px;
     }
-    canvas {
-        max-width: 100%;
-        width: auto;
+    nav .fas{
+        display: block;
+        font-size: 80px;
+        cursor: pointer;
+    }
+    nav ul{
+        background:#9bffa0;
+        position: fixed;
+        top: 0;
+        right: -40%;
+        width: 40%;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+    nav ul li a{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+    .logo{
+        width: 300px;
     }
 }
