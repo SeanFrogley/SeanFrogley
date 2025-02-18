@@ -171,6 +171,10 @@ body, html {
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
+.services-list div i {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
 .services-list div h2 {
     font-size: 30px;
     font-weight: 500;
@@ -260,4 +264,76 @@ body, html {
 }
 .btn:hover {
     background: #9bffa0;
+}
+.btn.btn2{
+    display: inline-block;
+    background: transparent;
+}
+
+/* --------------contact-------------*/
+
+#contact {
+    padding: 50px 0;
+}
+.contact-left {
+    flex-basis: 35%;
+}
+.contact-right {
+    flex-basis: 60%;
+}
+.contact-right form {
+    width: 100%;
+}
+.contact-left p {
+    margin-top: 30px;
+}
+.contact-left p i { 
+    color: #9bffa0;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons {
+    margin-top: 30px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 13px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover {
+    color: #9bffa0;
+    transform: translateY(-5px);
+}
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* --------------css for small screen-------------*/
+
+@media only screen and (max-width: 600px){
+    .header-text{
+        margin-top: 100%;
+        font-size: 100px;
+    }
+    .header-text h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
 }
