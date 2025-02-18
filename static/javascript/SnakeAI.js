@@ -7,6 +7,8 @@ function resizeCanvas() {
     // Get the width and height of the browser window
     const canvasWidth = window.innerWidth;
     const canvasHeight = window.innerHeight;
+    console.log(canvasWidth); // Log the width for debugging
+    console.log(canvasHeight); // Log the height for debugging
 
     // Set a fixed box size (can be adjusted based on game requirement)
     const fixedBoxSize = 40; // Size of each box (pixels)
