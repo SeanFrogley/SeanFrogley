@@ -201,11 +201,11 @@ function draw() {
 
     // Draw each segment of the snake
     snake.forEach(segment => {
-        ctx.fillStyle = '#9bffa0'; // Set the fill color for the snake
+        ctx.fillStyle = '#00ff15'; // Set the fill color for the snake
         ctx.fillRect(segment.x, segment.y, box, box); // Fill the snake segment with lime color
     });
 
-    ctx.fillStyle = 'pink'; // Set the fill color for the food
+    ctx.fillStyle = '#ff90f6'; // Set the fill color for the food
     ctx.fillRect(food.x, food.y, box, box); // Fill the food with red color
 }
 
