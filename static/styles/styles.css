@@ -124,7 +124,7 @@ body, html {
     margin: 10px 0;
 }
 .tab-contents ul li span {
-    color: #7dd981;
+    color: #9bffa0;
     font-size: 14px;
 }
 .tab-contents {
@@ -135,16 +135,17 @@ body, html {
 }
 /* --------------game-------------*/
 
+
 #game {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
+    height: auto;
+    position: fixed;
+    object-fit: cover;
     z-index: -1;
+    
 }
 
 #header .container {
@@ -355,7 +356,7 @@ nav .fas{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-    }
+    }   
     nav ul li {
         display: block;
         margin: 25px;
@@ -372,5 +373,31 @@ nav .fas{
     }
     .logo{
         width: 300px;
+    }
+    .about-col-1{
+        flex-basis: 100%;
+    }
+    .about-col-1 img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .about-col-2{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .about-col-2 h1{
+        font-size: 100px;
+    }
+    .about-col-2 p{
+        font-size: 40px;
+    }
+    .tab-contents li{
+        font-size: 40px;
+    }
+    .tab-contents ul li span{
+        font-size: 36px;
+    }
+    .services-list{
+        display: block;
     }
 }
