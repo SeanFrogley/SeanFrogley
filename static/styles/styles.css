@@ -323,6 +323,9 @@ form .btn2 {
     cursor: pointer;
 }
 
+.extra{
+    display: none;
+}
 /* --------------css for small screen-------------*/
 
 nav .fas{
@@ -410,11 +413,13 @@ nav .fas{
     .about-col-1 img {
         display: none;
     }
-    .work-list {
-        display: flex;
-        flex-direction: column; 
-        gap: 30px;
-        position: relative;
-        width: 100%;
+    .extra{
+        display: block;
+    }
+    .contact-left {
+        flex-basis: 100%;
+    }
+    .contact-right {
+        flex-basis: 100%;
     }
 }
