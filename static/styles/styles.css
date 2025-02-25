@@ -391,13 +391,30 @@ nav .fas{
     .tab-contents ul li span{
         font-size: 36px;
     }
-    .services-list{
-        display: block;
-        padding: 10px;
+    .services-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .services-list div h2{
+        font-size: 40px;
+    }
+    .services-list div p{
+        font-size: 25px;
     }
     .sub-title{
         font-size: 110px;
         font-weight: 600;
         color: #fff;
+    }
+    .about-col-1 img {
+        display: none;
+    }
+    .work-list {
+        display: flex;
+        flex-direction: column; 
+        gap: 30px;
+        position: relative;
+        width: 100%;
     }
 }
