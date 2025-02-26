@@ -13,10 +13,10 @@
         <nav>
             <img src="static/images/logo.svg" class="logo">
             <ul id="sidemenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times" onclick="closeMenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openMenu()"></i>
@@ -132,15 +132,16 @@
                     </a>
                     <a href="https://github.com/SeanFrogley"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <a href="static/images/SeanFrogleyCV.pdf" download class="btn btn2">Download CV</a>
+                <a href="static/images/SeanFrogleyCV.pdf" download class="btn">Download CV</a>
             </div>
             <div class="contact-right">
-                <form>
+                <form id="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="text" name="Email" placeholder="Your Email" required>
                     <textarea type="text" name="Message" rows="6" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+                    <button id="submit-button" type="submit" class="btn">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -154,6 +155,26 @@
     function closeMenu() {
         sideMenu.style.right="-40%";
     }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyPvccKbzZi7F9PI7bTEbQHS1u6uPkqbxgC0UelOPadlEqcmKowlQXwnWtYPxLF9mbA/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+    const submit_button = document.getElementById("submit-button");
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById("submit-button").disabled = true;
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+        msg.innerHTML = "Message Sent Successfully";
+        setTimeout(function() {
+            msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+        document.getElementById("submit-button").disabled = false;
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
 </script>
 <script src="static/javascript/SnakeAI.js"></script>
 <script src="static/javascript/switchAboutTab.js"></script>

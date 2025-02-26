@@ -4,7 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -258,6 +260,7 @@ body, html {
     border-radius: 6px;
     text-decoration: none;
     color: white;
+    background-color: transparent;
     transition: background 0.5s;
 }
 .btn:hover {
@@ -322,9 +325,13 @@ form .btn2 {
     margin-top: 20px;
     cursor: pointer;
 }
-
 .extra{
     display: none;
+}
+#msg {
+    color: #6bf466;
+    margin-top: -40px;
+    display: block;
 }
 /* --------------css for small screen-------------*/
 
