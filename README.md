@@ -17,13 +17,12 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 **Software Engineer Intern – Hops Technology**  
 *June 2025 – Present*  
-- Contributed to feature development and UX improvements using Flutter and Laravel.  
-- Supported onboarding of 10+ vendors and participated in product strategy sessions.
+- Contributed to feature development and UX improvements using Flutter and Laravel.
 
 **Software Engineer Intern – Tiaki Institute**  
 *February 2025 – July 2025*  
 - Developed a web-based media platform using Blazor, C#, and ASP.NET Core.  
-- Implemented features such as AI legitimacy checks, authentication, and basic photo editing.  
+- Implemented features such as legitimacy checks, authentication, and basic photo editing.  
 - Collaborated with stakeholders and contributed to UX design and system architecture.
 
 **Research Assistant – University of Canterbury**  
