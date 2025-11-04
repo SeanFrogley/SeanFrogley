@@ -1,5 +1,5 @@
 # Sean Frogley  
-**Software Developer | Full-Stack | Cloud | DevOps | Quality Assurance
+**Software Developer | Full-Stack | Cloud | DevOps | Quality Assurance**
 
 Computer Science graduate from the University of Canterbury with experience developing secure, scalable, and maintainable software solutions. Skilled in full-stack development using .NET, Blazor, and React, with a strong background in cloud platforms, CI/CD pipelines, and modern DevOps practices. Proficient in both frontend and backend development, database design, and automated testing.
 
