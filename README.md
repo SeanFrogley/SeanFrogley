@@ -1,13 +1,13 @@
 # Sean Frogley  
-**Software Developer | Full-Stack | Cloud | DevOps | AI**
+**Software Developer | Full-Stack | Cloud | DevOps | Quality Assurance
 
 Computer Science graduate from the University of Canterbury with experience developing secure, scalable, and maintainable software solutions. Skilled in full-stack development using .NET, Blazor, and React, with a strong background in cloud platforms, CI/CD pipelines, and modern DevOps practices. Proficient in both frontend and backend development, database design, and automated testing.
 
 ---
 
 ## 🛠️ Technical Skills  
-- **Languages:** C#, Python, Java, JavaScript, TypeScript, SQL, Dart, PHP, C  
-- **Frameworks & Tools:** .NET, Blazor, React, Spring Boot, Flutter, Laravel, Node.js, Bootstrap, EF Core, xUnit, Moq  
+- **Languages:** C#, Visual Basic, Python, Java, JavaScript, TypeScript, SQL, Dart, PHP, C  
+- **Frameworks & Tools:** .NET, .NET Core / .NET 5+, Blazor, React, Spring Boot, Flutter, Laravel, Node.js, Bootstrap, EF Core, xUnit, Moq
 - **Databases:** PostgreSQL, MongoDB, MySQL  
 - **Other:** Azure DevOps, Git, Nginx, Firebase, REST APIs, Figma, HTML/CSS
 
@@ -15,8 +15,12 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## 💻 Experience
 
+**Software Engineer –BookingTimes**  
+*September 2025 – Present*  
+- Contributed to Feature Development and Quality Assurance.
+
 **Software Engineer Intern – Hops Technology**  
-*June 2025 – Present*  
+*June 2025 – September 2025*  
 - Contributed to feature development and UX improvements using Flutter and Laravel.
 
 **Software Engineer Intern – Tiaki Institute**  
@@ -27,12 +31,15 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 **Research Assistant – University of Canterbury**  
 *November 2024 – February 2025*  
-- Built a task management application for a research team using Blazor and .NET.  
-- Designed live-updating forms and data visualizations to support academic workflow.
+- Contributed to the development of a task management application for a research team at University of Canterbury using Blazor and .NET.  
+- Designed live-updating forms and data visualizations to support academic workflow and facilitate data collection.
 
 ---
 
 ## 🚀 Projects  
+
+**Velgrim** – 2D RPG Game
+- Building using Unity, C#, Aseprite
 
 **Inventra** – Rental management platform  
 - Built with React, Node.js, and MongoDB to help users manage equipment rentals, depreciation, and revenue tracking.
