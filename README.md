@@ -15,9 +15,9 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## 💻 Experience
 
-**Software Engineer –BookingTimes**  
+**Software Engineer – BookingTimes**  
 *September 2025 – Present*  
-- Contributed to Feature Development and Quality Assurance.
+- Contributing to Feature Development and Quality Assurance.
 
 **Software Engineer Intern – Hops Technology**  
 *June 2025 – September 2025*  
