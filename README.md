@@ -5,7 +5,7 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ---
 
-## 🛠️ Technical Skills  
+## Technical Skills  
 - **Languages:** C#, Visual Basic, Python, Java, JavaScript, TypeScript, SQL, Dart, PHP, C  
 - **Frameworks & Tools:** .NET, .NET Core / .NET 5+, Blazor, React, Spring Boot, Flutter, Laravel, Node.js, Bootstrap, EF Core, xUnit, Moq
 - **Databases:** PostgreSQL, MongoDB, MySQL  
@@ -13,7 +13,7 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ---
 
-## 💻 Experience
+## Experience
 
 **Software Engineer – BookingTimes**  
 *September 2025 – Present*  
@@ -36,7 +36,7 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ---
 
-## 🚀 Projects  
+## Projects  
 
 **Velgrim** – 2D RPG Game
 - Building using Unity, C#, Aseprite
@@ -49,7 +49,7 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ---
 
-## 📍 Location & Contact  
+## Location & Contact  
 Christchurch, New Zealand  
-📧 sean@frogley.com  
-📞 (+64) 21 240 6443
+sean@frogley.com  
+(+64) 21 240 6443
