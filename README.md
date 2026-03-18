@@ -15,8 +15,12 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## Experience
 
+**Software Engineer – Treshna Enterprises**  
+*April 2026 – Present*  
+- Contributing to Feature Development and Quality Assurance.
+
 **Software Engineer – BookingTimes**  
-*September 2025 – Present*  
+*September 2025 – March 2026*  
 - Contributing to Feature Development and Quality Assurance.
 
 **Software Engineer Intern – Hops Technology**  
