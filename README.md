@@ -47,6 +47,7 @@ Computer Science graduate from the University of Canterbury with experience deve
 ## Projects  
 
 **Revirlo** – Automated short-form content platform
+
 *February 2026 – Present*
 - Built a full-stack SaaS using Django and React that processes Twitch clips into short-form vertical videos for publishing to YouTube Shorts and TikTok
 - Implemented an ML pipeline featuring YOLO-based facecam detection, faster-whisper transcription, and GPT-powered metadata generation
