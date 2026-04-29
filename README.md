@@ -15,17 +15,21 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## Experience
 
-**Software Engineer – Treshna Enterprises**  
-*April 2026 – Present*  
-- Contributing to Feature Development and Quality Assurance.
+**Software Engineer – Treshna Enterprises**
+*April 2026 – Present*
+- Developed custom client-facing member portals featuring booking, billing, and related integrations
+- Contributed to general feature development and bug fixes across the core product
 
-**Software Engineer – BookingTimes**  
-*September 2025 – March 2026*  
-- Contributing to Feature Development and Quality Assurance.
+**Software Engineer – BookingTimes**
+*September 2025 – March 2026*
+- Collaborated directly with the lead engineer to build out a learning management system from the ground up
+- Optimised payment processing workflows across Stripe, eWAY, and Zapier integrations
+- Conducted QA and code reviews on peer contributions
+- Maintained SOC 2 compliance by logging and documenting cyber incidents, and monitored third-party libraries for emerging vulnerabilities
 
-**Software Engineer Intern – Hops Technology**  
-*June 2025 – September 2025*  
-- Contributed to feature development and UX improvements using Flutter and Laravel.
+**Software Engineer Intern – Hops Technology**
+*June 2025 – September 2025*
+- Built a location-based notification system that surfaced food and drink deals to users by comparing local venue prices in real time
 
 **Software Engineer Intern – Tiaki Institute**  
 *February 2025 – July 2025*  
@@ -42,11 +46,15 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## Projects  
 
+**Revirlo** – Automated short-form content platform
+- Built a full-stack SaaS using Django and React that processes Twitch clips into short-form vertical videos for publishing to YouTube Shorts and TikTok
+- Implemented an ML pipeline featuring YOLO-based facecam detection, faster-whisper transcription, and GPT-powered metadata generation
+- Engineered a video editor with timeline, trim, and overlay tooling alongside a subtitle engine with per-word colour support
+- Integrated OAuth publishing APIs for YouTube and TikTok, with scheduling, recurring posts, and a calendar-based publishing interface
+- Deployed on a Hetzner VPS using Docker Compose, nginx, and Cloudflare Tunnel with Cloudflare R2 for media storage
+
 **Velgrim** – 2D RPG Game
 - Building using Unity, C#, Aseprite
-
-**Inventra** – Rental management platform  
-- Built with React, Node.js, and MongoDB to help users manage equipment rentals, depreciation, and revenue tracking.
 
 **BidBuds** – Agile team project (Spring Boot, Java)  
 - Implemented messaging, live bidding, and weather API integrations to assist local gardeners with crop maintenance and sales.
@@ -55,5 +63,4 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## Location & Contact  
 Christchurch, New Zealand  
-sean@frogley.com  
-(+64) 21 240 6443
+sean@frogley.com
