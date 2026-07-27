@@ -46,16 +46,13 @@ Computer Science graduate from the University of Canterbury with experience deve
 
 ## Projects  
 
-**Revirlo** – Automated short-form content platform<br>
+**VyralLab** – Automated short-form content platform<br>
 *February 2026 – Present*
 - Built a full-stack SaaS using Django and React that processes Twitch clips into short-form vertical videos for publishing to YouTube Shorts and TikTok
 - Implemented an ML pipeline featuring YOLO-based facecam detection, faster-whisper transcription, and GPT-powered metadata generation
 - Engineered a video editor with timeline, trim, and overlay tooling alongside a subtitle engine with per-word colour support
 - Integrated OAuth publishing APIs for YouTube and TikTok, with scheduling, recurring posts, and a calendar-based publishing interface
 - Deployed on a Hetzner VPS using Docker Compose, nginx, and Cloudflare Tunnel with Cloudflare R2 for media storage
-
-**Velgrim** – 2D RPG Game
-- Building using Unity, C#, Aseprite
 
 **BidBuds** – Agile team project (Spring Boot, Java)  
 - Implemented messaging, live bidding, and weather API integrations to assist local gardeners with crop maintenance and sales.
